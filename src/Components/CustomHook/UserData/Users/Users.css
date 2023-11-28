@@ -34,7 +34,7 @@ img {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 3rem 3rem;
+    padding: 3rem 2rem;
   }
 
   .user__details > * {
@@ -45,3 +45,15 @@ img {
     font-size: 1.6rem;
   }
   
+
+  @media only screen and (max-width: 600px) {
+    .userInformation {
+      width: 360px;
+  }
+  }
+
+  @media only screen and (max-width: 872px) {
+    .userInformation {
+      width: 360px;
+  }
+  }
