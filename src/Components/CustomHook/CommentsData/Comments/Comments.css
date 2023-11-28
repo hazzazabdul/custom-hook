@@ -1,0 +1,25 @@
+.comments {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 1rem;
+}
+
+@media only screen and (max-width: 1296px) {
+    .comments {
+      grid-template-columns: repeat(3, auto);
+    }
+  }
+  
+  @media only screen and (max-width: 872px) {
+    .comments {
+      grid-template-columns: repeat(3, auto);
+
+    }
+  
+  }
+  @media only screen and (max-width: 600px) {
+    .comments {
+      grid-template-columns: repeat(1, auto);
+    }
+  
+  }

@@ -1,0 +1,32 @@
+.userContainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+section {
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 1296px) {
+  .userContainer {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media only screen and (max-width: 872px) {
+  .userContainer {
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+  .userContainer {
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+  }
+
+}
